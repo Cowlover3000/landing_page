@@ -17,6 +17,12 @@ a{
 
 }
 
+h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -25,6 +31,7 @@ ul{
     gap: 20px;
 }
 
+/* navbar-section */
 
 .navbar{
     background-color: #1F2937;
@@ -43,6 +50,8 @@ ul{
     font-weight: bold;
     font-size: 24px;
 }
+
+/* hero section */
 
 .hero-section{
     background-color: #1F2937;
@@ -72,11 +81,12 @@ ul{
 
 .hero-image{
     background-color: #e5e7eb;
-    width: 600px;
+    width: 550px;
     height: 300px;
     flex-shrink: 0;
-    border-radius: 5px;
-    border: 10px solid #e5e7eb;
+    border-radius: 10px;
+    border: 5px solid #e5e7eb;
+    aspect-ratio: 2/1;
 }
 
 .hero-text button{
@@ -88,3 +98,34 @@ ul{
     font-size: 18px;
     font-weight: bold;
 }
+
+
+/* random info section */
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+}
+
+.card-container img{
+    width: 150px;
+    height: 150px;
+    border: 6px solid #3882f6;
+    border-radius: 24px;
+}
+
+.card-container p{
+    text-align: center;
+}
+
+.random-info .contain-container{
+    height: 450px;
+}
+
