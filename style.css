@@ -105,7 +105,7 @@ ul{
 .cards-container{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
 }
 
 .card-container{
@@ -115,10 +115,10 @@ ul{
 }
 
 .card-container img{
-    width: 150px;
-    height: 150px;
-    border: 6px solid #3882f6;
-    border-radius: 24px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
 }
 
 .card-container p{
@@ -129,3 +129,28 @@ ul{
     height: 450px;
 }
 
+/* quote-section */
+
+.quote-container{
+    background-color: #e5e7eb;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container .contain-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    margin: 0;
+}
+
+.person{
+    font-weight: bold;
+    text-align: right;
+}
